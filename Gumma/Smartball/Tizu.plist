@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>iti</key>
+		<string>前橋</string>
+		<key>x</key>
+		<integer>135</integer>
+		<key>y</key>
+		<integer>210</integer>
+	</dict>
+	<dict>
+		<key>iti</key>
+		<string>高崎</string>
+		<key>x</key>
+		<integer>120</integer>
+		<key>y</key>
+		<integer>220</integer>
+	</dict>
+	<dict>
+		<key>iti</key>
+		<string>水上</string>
+		<key>x</key>
+		<integer>175</integer>
+		<key>y</key>
+		<integer>125</integer>
+	</dict>
+</array>
+</plist>

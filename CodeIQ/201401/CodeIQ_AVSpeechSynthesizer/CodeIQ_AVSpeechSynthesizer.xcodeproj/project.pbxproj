@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6377A43C188A116E00AAD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A43B188A116E00AAD82E /* Foundation.framework */; };
+		6377A43E188A116E00AAD82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A43D188A116E00AAD82E /* CoreGraphics.framework */; };
+		6377A440188A116E00AAD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A43F188A116E00AAD82E /* UIKit.framework */; };
+		6377A446188A116E00AAD82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6377A444188A116E00AAD82E /* InfoPlist.strings */; };
+		6377A448188A116E00AAD82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6377A447188A116E00AAD82E /* main.m */; };
+		6377A44C188A116E00AAD82E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6377A44B188A116E00AAD82E /* AppDelegate.m */; };
+		6377A44F188A116E00AAD82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6377A44D188A116E00AAD82E /* Main.storyboard */; };
+		6377A452188A116E00AAD82E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6377A451188A116E00AAD82E /* ViewController.m */; };
+		6377A454188A116E00AAD82E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6377A453188A116E00AAD82E /* Images.xcassets */; };
+		6377A45B188A116E00AAD82E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A45A188A116E00AAD82E /* XCTest.framework */; };
+		6377A45C188A116E00AAD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A43B188A116E00AAD82E /* Foundation.framework */; };
+		6377A45D188A116E00AAD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A43F188A116E00AAD82E /* UIKit.framework */; };
+		6377A465188A116E00AAD82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6377A463188A116E00AAD82E /* InfoPlist.strings */; };
+		6377A467188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6377A466188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.m */; };
+		6377A471188A123B00AAD82E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377A470188A123B00AAD82E /* AVFoundation.framework */; };
+		6377A477188A1F7E00AAD82E /* AVSpeechSynthesizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6377A476188A1F7E00AAD82E /* AVSpeechSynthesizerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6377A45E188A116E00AAD82E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6377A430188A116E00AAD82E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6377A437188A116E00AAD82E;
+			remoteInfo = CodeIQ_AVSpeechSynthesizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6377A438188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeIQ_AVSpeechSynthesizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6377A43B188A116E00AAD82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6377A43D188A116E00AAD82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6377A43F188A116E00AAD82E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6377A443188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeIQ_AVSpeechSynthesizer-Info.plist"; sourceTree = "<group>"; };
+		6377A445188A116E00AAD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6377A447188A116E00AAD82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6377A449188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeIQ_AVSpeechSynthesizer-Prefix.pch"; sourceTree = "<group>"; };
+		6377A44A188A116E00AAD82E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6377A44B188A116E00AAD82E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6377A44E188A116E00AAD82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6377A450188A116E00AAD82E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6377A451188A116E00AAD82E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6377A453188A116E00AAD82E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6377A459188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeIQ_AVSpeechSynthesizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6377A45A188A116E00AAD82E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6377A462188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeIQ_AVSpeechSynthesizerTests-Info.plist"; sourceTree = "<group>"; };
+		6377A464188A116E00AAD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6377A466188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeIQ_AVSpeechSynthesizerTests.m; sourceTree = "<group>"; };
+		6377A470188A123B00AAD82E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6377A475188A1F7E00AAD82E /* AVSpeechSynthesizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSpeechSynthesizerManager.h; sourceTree = "<group>"; };
+		6377A476188A1F7E00AAD82E /* AVSpeechSynthesizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSpeechSynthesizerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6377A435188A116E00AAD82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A471188A123B00AAD82E /* AVFoundation.framework in Frameworks */,
+				6377A43E188A116E00AAD82E /* CoreGraphics.framework in Frameworks */,
+				6377A440188A116E00AAD82E /* UIKit.framework in Frameworks */,
+				6377A43C188A116E00AAD82E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6377A456188A116E00AAD82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A45B188A116E00AAD82E /* XCTest.framework in Frameworks */,
+				6377A45D188A116E00AAD82E /* UIKit.framework in Frameworks */,
+				6377A45C188A116E00AAD82E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6377A42F188A116E00AAD82E = {
+			isa = PBXGroup;
+			children = (
+				6377A441188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer */,
+				6377A460188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests */,
+				6377A43A188A116E00AAD82E /* Frameworks */,
+				6377A439188A116E00AAD82E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6377A439188A116E00AAD82E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6377A438188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer.app */,
+				6377A459188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6377A43A188A116E00AAD82E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6377A470188A123B00AAD82E /* AVFoundation.framework */,
+				6377A43B188A116E00AAD82E /* Foundation.framework */,
+				6377A43D188A116E00AAD82E /* CoreGraphics.framework */,
+				6377A43F188A116E00AAD82E /* UIKit.framework */,
+				6377A45A188A116E00AAD82E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6377A441188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				6377A44A188A116E00AAD82E /* AppDelegate.h */,
+				6377A44B188A116E00AAD82E /* AppDelegate.m */,
+				6377A44D188A116E00AAD82E /* Main.storyboard */,
+				6377A450188A116E00AAD82E /* ViewController.h */,
+				6377A451188A116E00AAD82E /* ViewController.m */,
+				6377A475188A1F7E00AAD82E /* AVSpeechSynthesizerManager.h */,
+				6377A476188A1F7E00AAD82E /* AVSpeechSynthesizerManager.m */,
+				6377A453188A116E00AAD82E /* Images.xcassets */,
+				6377A442188A116E00AAD82E /* Supporting Files */,
+			);
+			path = CodeIQ_AVSpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		6377A442188A116E00AAD82E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6377A443188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer-Info.plist */,
+				6377A444188A116E00AAD82E /* InfoPlist.strings */,
+				6377A447188A116E00AAD82E /* main.m */,
+				6377A449188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6377A460188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6377A466188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.m */,
+				6377A461188A116E00AAD82E /* Supporting Files */,
+			);
+			path = CodeIQ_AVSpeechSynthesizerTests;
+			sourceTree = "<group>";
+		};
+		6377A461188A116E00AAD82E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6377A462188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests-Info.plist */,
+				6377A463188A116E00AAD82E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6377A437188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6377A46A188A116E00AAD82E /* Build configuration list for PBXNativeTarget "CodeIQ_AVSpeechSynthesizer" */;
+			buildPhases = (
+				6377A434188A116E00AAD82E /* Sources */,
+				6377A435188A116E00AAD82E /* Frameworks */,
+				6377A436188A116E00AAD82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeIQ_AVSpeechSynthesizer;
+			productName = CodeIQ_AVSpeechSynthesizer;
+			productReference = 6377A438188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6377A458188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6377A46D188A116E00AAD82E /* Build configuration list for PBXNativeTarget "CodeIQ_AVSpeechSynthesizerTests" */;
+			buildPhases = (
+				6377A455188A116E00AAD82E /* Sources */,
+				6377A456188A116E00AAD82E /* Frameworks */,
+				6377A457188A116E00AAD82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6377A45F188A116E00AAD82E /* PBXTargetDependency */,
+			);
+			name = CodeIQ_AVSpeechSynthesizerTests;
+			productName = CodeIQ_AVSpeechSynthesizerTests;
+			productReference = 6377A459188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6377A430188A116E00AAD82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = HiromiYamamoto;
+				TargetAttributes = {
+					6377A458188A116E00AAD82E = {
+						TestTargetID = 6377A437188A116E00AAD82E;
+					};
+				};
+			};
+			buildConfigurationList = 6377A433188A116E00AAD82E /* Build configuration list for PBXProject "CodeIQ_AVSpeechSynthesizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6377A42F188A116E00AAD82E;
+			productRefGroup = 6377A439188A116E00AAD82E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6377A437188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer */,
+				6377A458188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6377A436188A116E00AAD82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A454188A116E00AAD82E /* Images.xcassets in Resources */,
+				6377A446188A116E00AAD82E /* InfoPlist.strings in Resources */,
+				6377A44F188A116E00AAD82E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6377A457188A116E00AAD82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A465188A116E00AAD82E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6377A434188A116E00AAD82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A452188A116E00AAD82E /* ViewController.m in Sources */,
+				6377A477188A1F7E00AAD82E /* AVSpeechSynthesizerManager.m in Sources */,
+				6377A44C188A116E00AAD82E /* AppDelegate.m in Sources */,
+				6377A448188A116E00AAD82E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6377A455188A116E00AAD82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A467188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6377A45F188A116E00AAD82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6377A437188A116E00AAD82E /* CodeIQ_AVSpeechSynthesizer */;
+			targetProxy = 6377A45E188A116E00AAD82E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6377A444188A116E00AAD82E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6377A445188A116E00AAD82E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6377A44D188A116E00AAD82E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6377A44E188A116E00AAD82E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6377A463188A116E00AAD82E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6377A464188A116E00AAD82E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6377A468188A116E00AAD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6377A469188A116E00AAD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6377A46B188A116E00AAD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeIQ_AVSpeechSynthesizer/CodeIQ_AVSpeechSynthesizer-Prefix.pch";
+				INFOPLIST_FILE = "CodeIQ_AVSpeechSynthesizer/CodeIQ_AVSpeechSynthesizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6377A46C188A116E00AAD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeIQ_AVSpeechSynthesizer/CodeIQ_AVSpeechSynthesizer-Prefix.pch";
+				INFOPLIST_FILE = "CodeIQ_AVSpeechSynthesizer/CodeIQ_AVSpeechSynthesizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6377A46E188A116E00AAD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeIQ_AVSpeechSynthesizer.app/CodeIQ_AVSpeechSynthesizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeIQ_AVSpeechSynthesizer/CodeIQ_AVSpeechSynthesizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CodeIQ_AVSpeechSynthesizerTests/CodeIQ_AVSpeechSynthesizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6377A46F188A116E00AAD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeIQ_AVSpeechSynthesizer.app/CodeIQ_AVSpeechSynthesizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeIQ_AVSpeechSynthesizer/CodeIQ_AVSpeechSynthesizer-Prefix.pch";
+				INFOPLIST_FILE = "CodeIQ_AVSpeechSynthesizerTests/CodeIQ_AVSpeechSynthesizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6377A433188A116E00AAD82E /* Build configuration list for PBXProject "CodeIQ_AVSpeechSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6377A468188A116E00AAD82E /* Debug */,
+				6377A469188A116E00AAD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6377A46A188A116E00AAD82E /* Build configuration list for PBXNativeTarget "CodeIQ_AVSpeechSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6377A46B188A116E00AAD82E /* Debug */,
+				6377A46C188A116E00AAD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6377A46D188A116E00AAD82E /* Build configuration list for PBXNativeTarget "CodeIQ_AVSpeechSynthesizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6377A46E188A116E00AAD82E /* Debug */,
+				6377A46F188A116E00AAD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6377A430188A116E00AAD82E /* Project object */;
+}
